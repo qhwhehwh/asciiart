@@ -1,0 +1,9 @@
+<h1>ASCII ART를 만들어 주는 사이트 입니다.(chrome으로 들어와 주세요)</h1>
+<h2>ascii art로 만들고 싶은 text를 넣어주세요(한글x)</h2>
+<form action="{% url 'good' %}" method="GET">
+<input type="text" name="something"><br>
+<input type="submit" value="go!">
+</form>
+<hr>
+<h2>여기는 랜덤으로 생기는 ascii art입니다.</h2>
+<h1>{{text1}}</h1>
