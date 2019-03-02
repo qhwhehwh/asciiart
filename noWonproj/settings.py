@@ -131,6 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+ALLOWED_HOSTS = ['safe-chamber-41531.herokuapp.com','127.0.0.1']
 
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
