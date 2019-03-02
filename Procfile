@@ -1,0 +1,1 @@
+web: gunicorn noWonproj.wsgi --log-file -
